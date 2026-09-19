@@ -1,8 +1,10 @@
 public class main {
     public static void main(String[] args) {
-        int A = 9;
-        int B = 90;
-        int C = A + B;
-        System.out.println(C);
+        int a = 90;
+        int b = 98;
+        int c = a + (b - a) / 2;
+        System.out.println(c);
+
     }
+
 }
